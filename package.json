@@ -1,0 +1,54 @@
+{
+  "homepage": "https://navikt.github.io/dittnav-brukernotifikasjoner-intro",
+  "name": "dittnav-brukernotifikasjoner-intro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "babel-polyfill": "^6.26.0",
+    "browserslist": "^4.13.0",
+    "classnames": "^2.2.6",
+    "nav-frontend-alertstriper": "^3.0.22",
+    "nav-frontend-alertstriper-style": "^2.0.17",
+    "nav-frontend-core": "^4.0.13",
+    "nav-frontend-ikoner-assets": "^1.0.5",
+    "nav-frontend-paneler-style": "^0.3.21",
+    "nav-frontend-typografi": "^2.0.25",
+    "nav-frontend-typografi-style": "^1.0.22",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^3.4.1",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
