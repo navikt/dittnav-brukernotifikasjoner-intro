@@ -1,18 +1,22 @@
 import React from 'react';
-import { Normaltekst, Sidetittel } from "nav-frontend-typografi";
+import {Normaltekst, Sidetittel} from "nav-frontend-typografi";
 
 const Funksjonalitet = () => {
     return (
-        <div className="header section">
-            <div className="innhold">
-                <Sidetittel>
-                    Tittel
-                </Sidetittel>
-                <br/>
-                <Normaltekst>
-                    Tekst
-                </Normaltekst>
-            </div>
+        <div className="innhold">
+            <Sidetittel>
+                Sånn funker det:
+            </Sidetittel>
+            <br/>
+            <Normaltekst>
+                Oppgaver...
+            </Normaltekst>
+            <Normaltekst>
+                Beskjeder...
+            </Normaltekst>
+            <Normaltekst>
+                Statusoppdateringer...
+            </Normaltekst>
         </div>
     )
 };

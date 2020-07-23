@@ -3,10 +3,11 @@ import { Normaltekst, Sidetittel } from "nav-frontend-typografi";
 
 const Oversikt = () => {
     return (
-        <div className="header section">
+        <div className="">
             <div className="innhold">
                 <Sidetittel>
-                    Tittel
+                    Brukernotifikasjoner og statusopdateringer:<br />
+                    Oppgaver, beskjeder og status i søknad/sak til brukerne gjennom Ditt Nav
                 </Sidetittel>
                 <br/>
                 <Normaltekst>

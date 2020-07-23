@@ -1,28 +1,12 @@
 import React from 'react';
-import styled from "styled-components";
 import { Normaltekst, Sidetittel } from "nav-frontend-typografi";
-
-const Wrapper = styled.div`
-  background-color: #C6C2BF;
-  position: relative;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-`;
-
-const Innhold = styled.div`
-  margin: 8rem;
-`;
-
-const Ingress = styled.div`
-    max-width: 800px;
-`;
+import Layout from "./styled/Layout";
+import Innhold from "./styled/Innhold";
+import Ingress from "./styled/Ingress";
 
 const Introduksjon = () => {
     return (
-        <Wrapper>
+        <Layout backgroundColor="#C6C2BF">
             <Innhold>
                 <Sidetittel>
                     Ditt NAV: <br/>Helhet i innloggede tjenester på nav.no
@@ -40,7 +24,7 @@ const Introduksjon = () => {
                     </Normaltekst>
                 </Ingress>
             </Innhold>
-        </Wrapper>
+        </Layout>
     )
 };
 
