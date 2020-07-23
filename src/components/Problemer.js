@@ -1,5 +1,5 @@
 import React from 'react';
-import { Normaltekst, Sidetittel } from "nav-frontend-typografi";
+import { Normaltekst, Undertittel } from "nav-frontend-typografi";
 import Layout from "./styled/Layout";
 import Ingress from "./styled/Ingress";
 import Innhold from "./styled/Innhold";
@@ -9,9 +9,9 @@ const Problemer = () => {
         <Layout backgroundColor="#E9E7E7">
             <Innhold>
                 <div className="innhold">
-                    <Sidetittel>
+                    <Undertittel>
                         Hvilke problemer skal vi løse?
-                    </Sidetittel>
+                    </Undertittel>
                     <br/>
                     <Ingress>
                         <Normaltekst>
