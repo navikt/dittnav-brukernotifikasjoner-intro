@@ -1,20 +1,20 @@
 import React from 'react';
-import { Normaltekst, Sidetittel } from "nav-frontend-typografi";
+import { Systemtittel } from "nav-frontend-typografi";
+import Layout from "./styled/Layout";
+import Innhold from "./styled/Innhold";
 
 const Oversikt = () => {
     return (
-        <div className="">
-            <div className="innhold">
-                <Sidetittel>
+        <Layout backgroundColor="#C6C2BF">
+            <Innhold>
+                <Systemtittel>
                     Brukernotifikasjoner og statusopdateringer:<br />
                     Oppgaver, beskjeder og status i søknad/sak til brukerne gjennom Ditt Nav
-                </Sidetittel>
+                </Systemtittel>
                 <br/>
-                <Normaltekst>
-                    Tekst
-                </Normaltekst>
-            </div>
-        </div>
+                <img src="" alt=""/>
+            </Innhold>
+        </Layout>
     )
 };
 
