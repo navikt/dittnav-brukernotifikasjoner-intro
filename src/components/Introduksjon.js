@@ -6,7 +6,7 @@ import Ingress from "./styled/Ingress";
 
 const Introduksjon = () => {
     return (
-        <Layout backgroundColor="#C6C2BF">
+        <Layout>
             <Innhold>
                 <Sidetittel>
                     Ditt NAV: <br/>Helhet i innloggede tjenester på nav.no

@@ -10,7 +10,7 @@ export const FlatLayout = styled.div`
 `;
 
 const Style = styled.div`
-    background-color: ${props => props.backgroundColor};
+    background-color: ${props => props.light ? '#E9E7E7' : '#C6C2BF'};
     position: relative;
     color: black;
     display: flex;
@@ -18,8 +18,8 @@ const Style = styled.div`
     justify-content: center;
 `;
 
-const Layout = ({ backgroundColor, children }) => (
-    <Style backgroundColor={backgroundColor}>
+const Layout = ({ light, children }) => (
+    <Style light={light}>
         {children}
     </Style>
 );

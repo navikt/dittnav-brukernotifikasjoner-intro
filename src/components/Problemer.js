@@ -6,7 +6,7 @@ import Innhold from "./styled/Innhold";
 
 const Problemer = () => {
     return (
-        <Layout backgroundColor="#E9E7E7">
+        <Layout light>
             <Innhold>
                 <div className="innhold">
                     <Undertittel>

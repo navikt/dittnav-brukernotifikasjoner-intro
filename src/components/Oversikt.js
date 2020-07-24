@@ -5,7 +5,7 @@ import Innhold from "./styled/Innhold";
 
 const Oversikt = () => {
     return (
-        <Layout backgroundColor="#C6C2BF">
+        <Layout>
             <Innhold>
                 <Systemtittel>
                     Brukernotifikasjoner og statusopdateringer:<br />

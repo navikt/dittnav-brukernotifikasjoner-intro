@@ -1,7 +1,7 @@
 import React from 'react';
 import {Normaltekst, Sidetittel} from "nav-frontend-typografi";
 import Innhold from "./styled/Innhold";
-import { FlatLayout } from "./styled/Layout";
+import {FlatLayout} from "./styled/Layout";
 import styled from "styled-components";
 import Beskjed from "../assets/Beskjed";
 import Oppgave from "../assets/Oppgave";
@@ -24,27 +24,27 @@ const Funksjonalitet = () => {
                     <div>
                         <Beskjed/>
                         <Normaltekst>
-                            <b>Oppgaver...</b> <br />
-                            Forklaring/hensikt <br />
-                            Kafka: brukernotifikasjon + done <br /><br />
+                            <b>Oppgaver...</b> <br/>
+                            Forklaring/hensikt <br/>
+                            Kafka: brukernotifikasjon + done <br/><br/>
                             Status: klar til bruk
                         </Normaltekst>
                     </div>
                     <div>
                         <Oppgave/>
                         <Normaltekst>
-                            <b>Beskjeder...</b> <br />
-                            Forklaring/hensikt <br />
-                            Kafka: brukernotifikasjon + done <br /><br />
+                            <b>Beskjeder...</b> <br/>
+                            Forklaring/hensikt <br/>
+                            Kafka: brukernotifikasjon + done <br/><br/>
                             Status: klar til bruk
                         </Normaltekst>
                     </div>
                     <div>
-                        <Oppgave />
+                        <Oppgave/>
                         <Normaltekst>
-                            <b>Statusoppdateringer...</b> <br />
-                            Forklaring/hensikt <br />
-                            Kafka: brukernotifikasjon + done <br /><br />
+                            <b>Statusoppdateringer...</b> <br/>
+                            Forklaring/hensikt <br/>
+                            Kafka: brukernotifikasjon + done <br/><br/>
                             Status: under utvikling
                         </Normaltekst>
                     </div>

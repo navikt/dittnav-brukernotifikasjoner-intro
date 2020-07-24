@@ -15,7 +15,7 @@ const Diagram = styled.img`
 
 const Teknisk = () => {
     return (
-        <Layout backgroundColor="#E9E7E7">
+        <Layout light>
             <Innhold>
                 <Systemtittel>
                     Teknisk dokumentasjon

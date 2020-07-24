@@ -6,7 +6,7 @@ import Ingress from "./styled/Ingress";
 
 const Tidslinje = () => {
     return (
-        <Layout backgroundColor="#C6C2BF">
+        <Layout>
             <Innhold>
                 <Systemtittel>
                     Tidslinje: <br />
