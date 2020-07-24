@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/dittnav-brukernotifikasjoner-intro/static/css/main.7a75ded6.chunk.css",
-    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.ca72d739.chunk.js",
-    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.ca72d739.chunk.js.map",
+    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.e380ec7b.chunk.js",
+    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.e380ec7b.chunk.js.map",
     "runtime-main.js": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js",
     "runtime-main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js.map",
-    "static/js/2.7f9ddbda.chunk.js": "/dittnav-brukernotifikasjoner-intro/static/js/2.7f9ddbda.chunk.js",
-    "static/js/2.7f9ddbda.chunk.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/2.7f9ddbda.chunk.js.map",
+    "static/js/2.bc2c64a6.chunk.js": "/dittnav-brukernotifikasjoner-intro/static/js/2.bc2c64a6.chunk.js",
+    "static/js/2.bc2c64a6.chunk.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/2.bc2c64a6.chunk.js.map",
     "index.html": "/dittnav-brukernotifikasjoner-intro/index.html",
-    "precache-manifest.580253555cfb66c4049d5aa758803f58.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.580253555cfb66c4049d5aa758803f58.js",
+    "precache-manifest.007619012d70dda53032ecaf522f62fe.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.007619012d70dda53032ecaf522f62fe.js",
     "service-worker.js": "/dittnav-brukernotifikasjoner-intro/service-worker.js",
     "static/css/main.7a75ded6.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/main.7a75ded6.chunk.css.map",
-    "static/js/2.7f9ddbda.chunk.js.LICENSE.txt": "/dittnav-brukernotifikasjoner-intro/static/js/2.7f9ddbda.chunk.js.LICENSE.txt",
+    "static/js/2.bc2c64a6.chunk.js.LICENSE.txt": "/dittnav-brukernotifikasjoner-intro/static/js/2.bc2c64a6.chunk.js.LICENSE.txt",
+    "static/media/Diagram.png": "/dittnav-brukernotifikasjoner-intro/static/media/Diagram.9fd7ba2c.png",
     "static/media/index.less": "/dittnav-brukernotifikasjoner-intro/static/media/index.5a36130d.less"
   },
   "entrypoints": [
     "static/js/runtime-main.ae5efd43.js",
-    "static/js/2.7f9ddbda.chunk.js",
+    "static/js/2.bc2c64a6.chunk.js",
     "static/css/main.7a75ded6.chunk.css",
-    "static/js/main.ca72d739.chunk.js"
+    "static/js/main.e380ec7b.chunk.js"
   ]
 }
