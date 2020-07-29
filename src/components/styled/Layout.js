@@ -18,10 +18,10 @@ const Style = styled.div`
     justify-content: center;
 `;
 
-const Layout = ({ light, children }) => (
-    <Style light={light}>
-        {children}
-    </Style>
+const Layout = ({light, children}) => (
+  <Style light={light}>
+    {children}
+  </Style>
 );
 
 export default Layout;

@@ -8,10 +8,10 @@ const Style = styled.div`
     margin-right: ${props => props.flat ? '0rem' : '8rem'};
 `;
 
-const Innhold = ({ flat, children }) => (
-    <Style flat={flat}>
-        {children}
-    </Style>
+const Innhold = ({flat, children}) => (
+  <Style flat={flat}>
+    {children}
+  </Style>
 );
 
 export default Innhold;
