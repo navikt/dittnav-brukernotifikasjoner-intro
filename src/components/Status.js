@@ -1,5 +1,5 @@
 import React from 'react';
-import {Normaltekst, Undertittel} from "nav-frontend-typografi";
+import {Normaltekst, Systemtittel} from "nav-frontend-typografi";
 import Layout from "./styled/Layout";
 import Innhold from "./styled/Innhold";
 import styled from "styled-components";
@@ -33,9 +33,9 @@ const Status = () => {
   return (
     <Layout light>
       <Innhold>
-        <Undertittel>
+        <Systemtittel>
           Status for bruk av hendelser
-        </Undertittel>
+        </Systemtittel>
         <Normaltekst>
           Første produsent i prod 1.april<br/>
           Gjennomsnittlig 20 000 eventer per dag

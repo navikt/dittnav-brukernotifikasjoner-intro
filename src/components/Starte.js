@@ -1,5 +1,5 @@
 import React from 'react';
-import {Normaltekst, Undertittel} from "nav-frontend-typografi";
+import {Normaltekst, Systemtittel} from "nav-frontend-typografi";
 import Layout from "./styled/Layout";
 import Innhold from "./styled/Innhold";
 import styled from "styled-components";
@@ -19,9 +19,9 @@ const Starte = () => {
   return (
     <Layout>
       <Innhold>
-        <Undertittel>
+        <Systemtittel>
           Hvordan komme i gang?
-        </Undertittel>
+        </Systemtittel>
         <br/>
         <Ingress>
           <Liste>

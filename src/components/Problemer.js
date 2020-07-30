@@ -1,5 +1,5 @@
 import React from 'react';
-import {Normaltekst, Undertittel} from "nav-frontend-typografi";
+import {Normaltekst, Systemtittel} from "nav-frontend-typografi";
 import Layout from "./styled/Layout";
 import Ingress from "./styled/Ingress";
 import Innhold from "./styled/Innhold";
@@ -8,9 +8,9 @@ const Problemer = () => {
   return (
     <Layout light>
       <Innhold>
-        <Undertittel>
+        <Systemtittel>
           Hvilke problemer skal vi løse?
-        </Undertittel>
+        </Systemtittel>
         <br/>
         <Ingress>
           <Normaltekst>
@@ -19,8 +19,8 @@ const Problemer = () => {
             blir brukt som betegnelse på opplevelsen brukerne har av å sende inn en søknad. Har Nav
             mottat søknaden min? Har jeg gjort alt riktig? Mangler det noe? Når skal nav begynne å se
             på saken min? Hvor lenge skal den være "under behendling" og hva er det neste som skal skje?
-            <b><i>Kommer alt til å ordne seg?</i></b>
-          </Normaltekst>
+            <b><i> Kommer alt til å ordne seg?</i></b>
+          </Normaltekst> <br/>
           <Normaltekst>
             Dittnav blir en flaskehals slik det har vært satt opp, med ekstremt mange koblinger og
             avhengigheter ut til andre systemer og løsninger. Hver gang noe nytt skal "kobles på" Ditt

@@ -6,8 +6,8 @@ import Funksjonalitet from "./components/Funksjonalitet";
 import Tidslinje from "./components/Tidslinje";
 import Teknisk from "./components/Teknisk";
 import Starte from "./components/Starte";
-import './App.scss';
 import Status from "./components/Status";
+import './App.less';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Normaltekst, Sidetittel} from "nav-frontend-typografi";
+import {Innholdstittel, Normaltekst} from "nav-frontend-typografi";
 import Innhold from "./styled/Innhold";
 import {FlatLayout} from "./styled/Layout";
 import styled from "styled-components";
@@ -20,9 +20,9 @@ const Funksjonalitet = () => {
   return (
     <FlatLayout>
       <Innhold flat>
-        <Sidetittel>
+        <Innholdstittel>
           Sånn funker det:
-        </Sidetittel>
+        </Innholdstittel>
         <br/>
         <Box>
           <div>
