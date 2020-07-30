@@ -19,7 +19,7 @@ const Introduksjon = () => {
             - de vil bare ha hjelp og støtte i sin unike situasjon. På Ditt NAV skal brukerne få et
             overblikk over sitt forhold til NAV, og bli trygge på at NAV kan hjelpe dem videre i livet."
           </Normaltekst>
-          <Normaltekst>
+          <Normaltekst style={{textAlign: 'right', paddingRight: '80px'}}>
             <i>- Team Personbruker</i>
           </Normaltekst>
         </Ingress>
