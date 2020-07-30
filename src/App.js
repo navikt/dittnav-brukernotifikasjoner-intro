@@ -7,6 +7,7 @@ import Tidslinje from "./components/Tidslinje";
 import Teknisk from "./components/Teknisk";
 import Starte from "./components/Starte";
 import './App.scss';
+import Status from "./components/Status";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Tidslinje />
       <Teknisk />
       <Starte />
+      <Status />
     </div>
   );
 }
