@@ -5,6 +5,7 @@ import {FlatLayout} from "./styled/Layout";
 import styled from "styled-components";
 import Beskjed from "../assets/Beskjed";
 import Oppgave from "../assets/Oppgave";
+import Statusoppdatering from "../assets/Statusoppdatering";
 
 const Box = styled.div`
   display: flex;
@@ -40,7 +41,7 @@ const Funksjonalitet = () => {
             </Normaltekst>
           </div>
           <div>
-            <Oppgave/>
+            <Statusoppdatering/>
             <Normaltekst>
               <b>Statusoppdateringer...</b> <br/>
               Forklaring/hensikt <br/>
