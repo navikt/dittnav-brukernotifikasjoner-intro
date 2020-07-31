@@ -2,6 +2,17 @@ import React from 'react';
 import {Systemtittel} from "nav-frontend-typografi";
 import Layout from "./styled/Layout";
 import Innhold from "./styled/Innhold";
+import dittnav from "../assets/Dittnav.png";
+import styled from "styled-components";
+
+const Dittnav = styled.img`
+  width: 80%;
+  height: auto;
+  margin-top: 2rem;
+  @media (max-width: 768px) {
+   width: 100%;
+  }
+`;
 
 const Oversikt = () => {
   return (
@@ -12,7 +23,7 @@ const Oversikt = () => {
           Oppgaver, beskjeder og status i søknad/sak til brukerne gjennom Ditt Nav
         </Systemtittel>
         <br/>
-        <img src="" alt=""/>
+        <Dittnav src={dittnav} alt="Skjermbilde av dittnav"/>
       </Innhold>
     </Layout>
   )
