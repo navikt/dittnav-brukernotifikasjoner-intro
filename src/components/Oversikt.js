@@ -6,10 +6,10 @@ import dittnav from "../assets/Dittnav.png";
 import styled from "styled-components";
 
 const Dittnav = styled.img`
-  width: 80%;
+  width: 60%;
   height: auto;
   margin-top: 2rem;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
    width: 100%;
   }
 `;
