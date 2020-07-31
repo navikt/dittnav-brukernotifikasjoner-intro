@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-
 export const FlatLayout = styled.div`
   background-color: #E9E7E7;
   position: relative;

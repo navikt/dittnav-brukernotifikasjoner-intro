@@ -3,6 +3,15 @@ import {Normaltekst, Systemtittel} from "nav-frontend-typografi";
 import Layout from "./styled/Layout";
 import Innhold from "./styled/Innhold";
 import Ingress from "./styled/Ingress";
+import tidslinje from '../assets/Skisse.png'
+import styled from "styled-components";
+
+const Skisse = styled.img`
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  margin-top: 2rem;
+`;
 
 const Tidslinje = () => {
   return (
@@ -19,7 +28,7 @@ const Tidslinje = () => {
             viser bruker hva som har skjedd i saken og hva som er neste steg. Stegene vil være generiske,
             men tidslinjen kan tilpasses av hvert team som lager innsyn i sak for tjenestene våre.
           </Normaltekst>
-          <img src="" alt=""/>
+          <Skisse src={tidslinje} alt=""/>
         </Ingress>
       </Innhold>
     </Layout>
