@@ -15,6 +15,10 @@ const Style = styled.div`
       margin-left: ${props => mobileMargin(props.flat)};
       margin-right: ${props => mobileMargin(props.flat)};
    }
+   ${props => props.flat && 'display: flex;'}
+   ${props => props.flat && 'align-items: center;'}
+   ${props => props.flat && 'justify-content: center;'}
+   ${props => props.flat && 'flex-direction: column;'}
 `;
 
 const Innhold = ({flat, children}) => (

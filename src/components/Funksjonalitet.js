@@ -11,6 +11,10 @@ const Box = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  width: 1024px;
+  @media (max-width: 1024px) {
+    width 800px;
+  }
   @media (max-width: 768px) {
     flex-direction: column;
   }
