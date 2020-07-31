@@ -18,7 +18,7 @@ const Problemer = () => {
             spredt og brukerne leter etter alt på alle steder. De føler utrygghet -"Det sorte hullet"
             blir brukt som betegnelse på opplevelsen brukerne har av å sende inn en søknad. Har Nav
             mottat søknaden min? Har jeg gjort alt riktig? Mangler det noe? Når skal nav begynne å se
-            på saken min? Hvor lenge skal den være "under behendling" og hva er det neste som skal skje?
+            på saken min? Hvor lenge skal den være "under behandling" og hva er det neste som skal skje?
             <b><i> Kommer alt til å ordne seg?</i></b>
           </Normaltekst> <br/>
           <Normaltekst>

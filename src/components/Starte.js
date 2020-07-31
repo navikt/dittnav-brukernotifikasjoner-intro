@@ -4,10 +4,21 @@ import Layout from "./styled/Layout";
 import Innhold from "./styled/Innhold";
 import styled from "styled-components";
 import Lenke from "nav-frontend-lenker";
+import Utgang from "../assets/Utgang";
+import {useMediaQuery} from "react-responsive/src";
 
 const Ingress = styled.div`
-    max-width: 800px;
+    width: 800px;
     text-align: left;
+    @media (max-width: 1024px) {
+      width: 600px;
+    }
+    @media (max-width: 768px) {
+      width: 400px;
+    }
+    @media (max-width: 375px) {
+      width: 300px;
+    }
 `;
 
 const Liste = styled.ul`
@@ -15,7 +26,14 @@ const Liste = styled.ul`
    padding-left: 0;
 `;
 
+const ListItem = styled.li`
+   padding-bottom: 16px;
+`;
+
+
 const Starte = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+
   return (
     <Layout>
       <Innhold>
@@ -25,59 +43,66 @@ const Starte = () => {
         <br/>
         <Ingress>
           <Liste>
-            <li>
+            <ListItem>
               <Normaltekst>
-                <b>På slack: </b>#brukernotifikasjoner
+                <b>På slack: #</b>brukernotifikasjoner
               </Normaltekst>
-            </li>
-            <li>
+            </ListItem>
+            <ListItem>
               <Normaltekst>
                 <b>Få tilgang: </b>
-                <Lenke href="https://github.com/navikt/brukernotifikasjon-topic-iac">https://github.com/navikt/brukernotifikasjon-topic-iac</Lenke>
+                <Lenke href="https://github.com/navikt/brukernotifikasjon-topic-iac">
+                  <span>navikt/brukernotifikasjon-topic-iac</span><Utgang skjul={isMobile}/>
+                </Lenke>
               </Normaltekst>
-            </li>
-            <li>
-              <dl>
+            </ListItem>
+            <ListItem>
                 <Normaltekst>
-                  <dt>
-                    <b>Skjema:</b>
-                  </dt>
-                  <dd>
-                    - Genererte typer: <Lenke href="https://search.maven.org/search/?q=a:brukernotifikasjon-schemas">https://search.maven.org/search/?q=a:brukernotifikasjon-schemas</Lenke>
-                  </dd>
-                  <dd>
-                    - Definisjon: <Lenke href="https://github.com/navikt/brukernotifikasjon-schemas">https://github.com/navikt/brukernotifikasjon-schemas</Lenke>
-                  </dd>
+                    <b>Skjema:</b><br/>
+                    - Genererte typer: {''}
+                  <Lenke href="https://search.maven.org/search/?q=a:brukernotifikasjon-schemas">
+                    <span>maven/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
+                  </Lenke><br/>
+                    - Definisjon: {''}
+                  <Lenke href="https://github.com/navikt/brukernotifikasjon-schemas">
+                    <span>navikt/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
+                  </Lenke>
                 </Normaltekst>
-              </dl>
-            </li>
-            <li>
+            </ListItem>
+            <ListItem>
               <Normaltekst>
                 <b>Grafana-board: </b>
-                <Lenke href="https://grafana.adeo.no/d/6ore-PuZz/dittnav-kafka?orgId=1&refresh=1m">https://grafana.adeo.no/d/6ore-PuZz/dittnav-kafka?orgId=1&refresh=1m</Lenke>
+                <Lenke href="https://grafana.adeo.no/d/6ore-PuZz/dittnav-kafka?orgId=1&refresh=1m">
+                  <span>grafana/dittnav-kafka</span><Utgang skjul={isMobile}/>
+                </Lenke>
               </Normaltekst>
-            </li>
-            <li>
+            </ListItem>
+            <ListItem>
               <Normaltekst>
                 <b>DittNAV for lokal kjøring: </b>
-                <Lenke href="https://github.com/navikt/dittnav-docker-compose">https://github.com/navikt/dittnav-docker-compose</Lenke>
+                <Lenke href="https://github.com/navikt/dittnav-docker-compose">
+                  <span>navikt/dittnav-docker-compose</span><Utgang skjul={isMobile}/>
+                </Lenke>
+              </Normaltekst>
+            </ListItem>
+            <li>
+              <Normaltekst>
+                <b>Teste dette lokalt</b>
               </Normaltekst>
             </li>
-            <li>
-              <dl>
-                <Normaltekst>
-                  <dt>
-                    <b>Teste dette lokalt<br/>Eksempelkode: </b>
-                  </dt>
-                  <dd>
-                    - Java: <Lenke href="https://github.com/navikt/brukernotifikasjoner-demo-producer">https://search.maven.org/search/?q=a:brukernotifikasjon-schemas</Lenke>
-                  </dd>
-                  <dd>
-                    - Kotlin: <Lenke href="https://github.com/navikt/dittnav-event-test-producer">https://github.com/navikt/dittnav-event-test-producer</Lenke>
-                  </dd>
-                </Normaltekst>
-              </dl>
-            </li>
+            <ListItem>
+              <Normaltekst>
+                <b>Eksempelkode: </b><br/>
+                - Java: {''}
+                <Lenke href="https://github.com/navikt/brukernotifikasjoner-demo-producer">
+                  <span>navikt/brukernotifikasjoner-demo-producer</span><Utgang skjul={isMobile}/>
+                </Lenke><br/>
+                - Kotlin: {''}
+                <Lenke href="https://github.com/navikt/dittnav-event-test-producer">
+                  <span>navikt/dittnav-event-test-producer</span><Utgang skjul={isMobile}/>
+                </Lenke>
+              </Normaltekst>
+            </ListItem>
           </Liste>
         </Ingress>
       </Innhold>

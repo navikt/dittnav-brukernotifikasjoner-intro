@@ -10,6 +10,9 @@ const Table = styled.table`
    @media (max-width: 768px) {
     width: 400px;
    }
+   @media (max-width: 375px) {
+    width: 300px;
+   }
 `;
 
 const TableRow = styled.tr`
