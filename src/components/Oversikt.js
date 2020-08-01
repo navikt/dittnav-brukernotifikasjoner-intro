@@ -6,18 +6,25 @@ import dittnav from "../assets/Dittnav.png";
 import styled from "styled-components";
 
 const Dittnav = styled.img`
-  width: 60%;
+  width: 65%;
   height: auto;
   margin-top: 2rem;
   @media (max-width: 1024px) {
-   width: 100%;
+    width: 600px;
+    margin-bottom: 1rem;
+  }
+  @media (max-width: 768px) {
+    width: 400px;
+  }
+  @media (max-width: 375px) {
+    width: 300px;
   }
 `;
 
 const Oversikt = () => {
   return (
     <Layout>
-      <Innhold>
+      <Innhold trimBottom>
         <Systemtittel>
           Brukernotifikasjoner og statusopdateringer:<br/>
           Oppgaver, beskjeder og status i søknad/sak til brukerne gjennom Ditt Nav

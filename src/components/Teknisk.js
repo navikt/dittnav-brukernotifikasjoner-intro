@@ -24,7 +24,6 @@ const Prosess = styled.img`
 const Box = styled.div`
   display: flex;
   ${props => props.column && 'flex-direction: column'};
-
 `;
 
 const CenteredTextBox = styled.div`

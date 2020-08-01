@@ -17,6 +17,10 @@ const Box = styled.div`
   }
   @media (max-width: 768px) {
     flex-direction: column;
+    width: 400px;
+  }
+  @media (max-width: 375px) {
+    width: 300px;
   }
 `;
 
