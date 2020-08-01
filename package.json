@@ -1,7 +1,7 @@
 {
   "homepage": "https://navikt.github.io/dittnav-brukernotifikasjoner-intro",
   "name": "dittnav-brukernotifikasjoner-intro",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.6.4",
