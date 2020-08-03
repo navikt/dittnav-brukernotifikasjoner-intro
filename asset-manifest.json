@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dittnav-brukernotifikasjoner-intro/static/css/main.f6cca858.chunk.css",
-    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.341e9df1.chunk.js",
-    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.341e9df1.chunk.js.map",
+    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.fd3a46b9.chunk.js",
+    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.fd3a46b9.chunk.js.map",
     "runtime-main.js": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js",
     "runtime-main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js.map",
     "static/css/2.7b169aa4.chunk.css": "/dittnav-brukernotifikasjoner-intro/static/css/2.7b169aa4.chunk.css",
     "static/js/2.fb75f007.chunk.js": "/dittnav-brukernotifikasjoner-intro/static/js/2.fb75f007.chunk.js",
     "static/js/2.fb75f007.chunk.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/2.fb75f007.chunk.js.map",
     "index.html": "/dittnav-brukernotifikasjoner-intro/index.html",
-    "precache-manifest.fcfd3fa5ad1ad5d12a531b9833078bab.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.fcfd3fa5ad1ad5d12a531b9833078bab.js",
+    "precache-manifest.923c3462f5f9765ad34be07f44919df4.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.923c3462f5f9765ad34be07f44919df4.js",
     "service-worker.js": "/dittnav-brukernotifikasjoner-intro/service-worker.js",
     "static/css/2.7b169aa4.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/2.7b169aa4.chunk.css.map",
     "static/css/main.f6cca858.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/main.f6cca858.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.7b169aa4.chunk.css",
     "static/js/2.fb75f007.chunk.js",
     "static/css/main.f6cca858.chunk.css",
-    "static/js/main.341e9df1.chunk.js"
+    "static/js/main.fd3a46b9.chunk.js"
   ]
 }
