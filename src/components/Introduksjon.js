@@ -14,10 +14,10 @@ const Introduksjon = () => {
         <br/>
         <Ingress>
           <Normaltekst>
-            "Ditt NAV skal binde sammen alle de gode tjenestene som andre team lager for brukerne våre.
+            «Ditt NAV skal binde sammen alle de gode tjenestene som andre team lager for brukerne våre.
             Brukerne har ikke noe forhold til hvordan NAV er organisert eller hvordan tjenestene er inndelt
             - de vil bare ha hjelp og støtte i sin unike situasjon. På Ditt NAV skal brukerne få et
-            overblikk over sitt forhold til NAV, og bli trygge på at NAV kan hjelpe dem videre i livet."
+            overblikk over sitt forhold til NAV, og bli trygge på at NAV kan hjelpe dem videre i livet».
           </Normaltekst>
           <Normaltekst style={{textAlign: 'right', paddingRight: '80px'}}>
             <i>- Team Personbruker</i>
