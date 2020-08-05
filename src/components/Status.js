@@ -55,6 +55,10 @@ const Status = () => {
             <TableData>Oppgave</TableData>
           </TableRow>
           <TableRow>
+            <TableData>Arbeidsplassen</TableData>
+            <TableData>Oppgave</TableData>
+          </TableRow>
+          <TableRow>
             <TableData>Forskuddsløsningen</TableData>
             <TableData>Beskjed</TableData>
           </TableRow>
