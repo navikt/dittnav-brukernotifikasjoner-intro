@@ -8,4 +8,4 @@ For å kjøre app-en lokalt:
 
 Deploy med github-pages:
 
-* `npm run build`
+* `npm run deploy`
