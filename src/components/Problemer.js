@@ -12,7 +12,7 @@ const Problemer = () => {
           Hvilke problemer skal vi løse?
         </Systemtittel>
         <br/>
-        <Ingress>
+        <Ingress left>
           <Normaltekst>
             Brukerne sliter med å finne frem i de innloggede løsningene på nav.no. Informasjonen er
             spredt og brukerne leter etter alt på alle steder. De føler utrygghet - «det sorte hullet»
