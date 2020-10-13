@@ -6,7 +6,7 @@ import dittnav from "../assets/Dittnav.png";
 import styled from "styled-components";
 
 const Dittnav = styled.img`
-  width: 65%;
+  width: 100%;
   height: auto;
   margin-top: 2rem;
   @media (max-width: 1024px) {
