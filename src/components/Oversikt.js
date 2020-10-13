@@ -3,9 +3,11 @@ import {Systemtittel} from "nav-frontend-typografi";
 import Layout from "./styled/Layout";
 import Innhold from "./styled/Innhold";
 import dittnav from "../assets/Dittnav.png";
+import innsyn from "../assets/Innsyn.png";
+
 import styled from "styled-components";
 
-const Dittnav = styled.img`
+const Bilde = styled.img`
   width: 100%;
   height: auto;
   margin-top: 2rem;
@@ -30,7 +32,12 @@ const Oversikt = () => {
           Oppgaver, beskjeder og status i søknad/sak til brukerne gjennom Ditt Nav
         </Systemtittel>
         <br/>
-        <Dittnav src={dittnav} alt="Skjermbilde av dittnav"/>
+        <div>
+          <Bilde src={dittnav} alt="Skjermbilde av dittnav"/>
+        </div>
+        <div>
+          <Bilde src={innsyn} alt="Skjermbilde av en side til innsyn i sak"/>
+        </div>
       </Innhold>
     </Layout>
   )
