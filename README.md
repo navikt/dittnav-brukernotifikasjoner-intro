@@ -6,6 +6,9 @@ For å kjøre app-en lokalt:
 * `npm run build`
 * `npm run start`
 
-Deploy med github-pages:
-
+## Manuell deploy
 * `npm run deploy`
+
+Dette repoet deploy-es manuelt med `gh-pages` til [denne](https://navikt.github.io/dittnav-brukernotifikasjoner-intro/) siden.
+
+
