@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90ca518ae4a93712a43ad84b93326b22",
+    "revision": "babada9997d70b580156472f5311bf0b",
     "url": "/dittnav-brukernotifikasjoner-intro/index.html"
   },
   {
-    "revision": "b736286306321fa94bae",
+    "revision": "793dc9e13815eb04fe1c",
     "url": "/dittnav-brukernotifikasjoner-intro/static/css/2.7b169aa4.chunk.css"
   },
   {
-    "revision": "89ee9a191de09d1f29ef",
+    "revision": "83ccfd328b58520c3324",
     "url": "/dittnav-brukernotifikasjoner-intro/static/css/main.f6cca858.chunk.css"
   },
   {
-    "revision": "b736286306321fa94bae",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.779ff794.chunk.js"
+    "revision": "793dc9e13815eb04fe1c",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.18415597.chunk.js"
   },
   {
     "revision": "56729d980da09961afe8d497a21eec12",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.779ff794.chunk.js.LICENSE.txt"
+    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.18415597.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89ee9a191de09d1f29ef",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/js/main.f0683eb9.chunk.js"
+    "revision": "83ccfd328b58520c3324",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/js/main.19cacd1c.chunk.js"
   },
   {
     "revision": "6d6c7358357cb625fe75",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99f54b32984fc37905d91a68188ba4e6",
     "url": "/dittnav-brukernotifikasjoner-intro/static/media/Dittnav.99f54b32.png"
+  },
+  {
+    "revision": "816ab4a998ecb6c76b64075ca4976e0a",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/media/Innsyn.816ab4a9.png"
   },
   {
     "revision": "67cdf57aec56edb594a60b05f799e171",
