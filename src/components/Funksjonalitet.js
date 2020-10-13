@@ -36,7 +36,7 @@ const Funksjonalitet = () => {
           <div>
             <Beskjed/>
             <Normaltekst>
-              <b>Oppgaver...</b> <br/>
+              <b>Oppgaver...asdasd</b> <br/>
               Forklaring/hensikt <br/>
               Kafka: brukernotifikasjon + done <br/><br/>
               Status: klar til bruk
