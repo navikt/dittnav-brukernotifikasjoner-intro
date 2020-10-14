@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "babada9997d70b580156472f5311bf0b",
+    "revision": "a10f582f5c7180136bf5f5c153e2a7a5",
     "url": "/dittnav-brukernotifikasjoner-intro/index.html"
   },
   {
-    "revision": "793dc9e13815eb04fe1c",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/css/2.7b169aa4.chunk.css"
+    "revision": "70608bb3db1e370dfe94",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/css/2.328a030e.chunk.css"
   },
   {
-    "revision": "83ccfd328b58520c3324",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/css/main.f6cca858.chunk.css"
+    "revision": "feb4c21345cd177bea63",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/css/main.37c0b124.chunk.css"
   },
   {
-    "revision": "793dc9e13815eb04fe1c",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.18415597.chunk.js"
+    "revision": "70608bb3db1e370dfe94",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.a96709e3.chunk.js"
   },
   {
     "revision": "56729d980da09961afe8d497a21eec12",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.18415597.chunk.js.LICENSE.txt"
+    "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.a96709e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83ccfd328b58520c3324",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/js/main.19cacd1c.chunk.js"
+    "revision": "feb4c21345cd177bea63",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/js/main.70b89376.chunk.js"
   },
   {
     "revision": "6d6c7358357cb625fe75",
