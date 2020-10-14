@@ -1,5 +1,6 @@
 import React from 'react';
 import {Systemtittel} from "nav-frontend-typografi";
+import Hjelpetekst from 'nav-frontend-hjelpetekst';
 import Layout from "./styled/Layout";
 import Innhold from "./styled/Innhold";
 import dittnav from "../assets/Dittnav.png";
@@ -8,18 +9,21 @@ import innsyn from "../assets/Innsyn.png";
 import styled from "styled-components";
 
 const Bilde = styled.img`
-  width: 100%;
-  height: auto;
   margin-top: 2rem;
-  @media (max-width: 1024px) {
-    width: 600px;
-    margin-bottom: 1rem;
-  }
-  @media (max-width: 768px) {
-    width: 400px;
-  }
-  @media (max-width: 375px) {
-    width: 300px;
+  width: 100%;
+`;
+
+const BildeContainer = styled.div`
+  position: relative;
+`;
+
+const Forklaring = styled(Hjelpetekst)`  
+  position: absolute;
+  ${props => props.top && `top: ${props.top};`}
+  ${props => props.left && `left: ${props.left};`}
+  
+  @media (max-width: 525px) {
+    display: none;
   }
 `;
 
@@ -32,12 +36,24 @@ const Oversikt = () => {
           Oppgaver, beskjeder og status i søknad/sak til brukerne gjennom Ditt Nav
         </Systemtittel>
         <br/>
-        <div>
+        <BildeContainer>
           <Bilde src={dittnav} alt="Skjermbilde av dittnav"/>
-        </div>
-        <div>
+          <Forklaring top="35%" left="94%" type="over-hoyre">
+            Beskjeder til brukerne som betrygger dem om at NAV er på saken.
+          </Forklaring>
+          <Forklaring top="45%" left="3%" type="over-venstre">
+            Oppgaver som brukerne må gjøre for at NAV kan hjelpe dem videre.
+          </Forklaring>
+          <Forklaring top="82.5%" left="3%" type="over-venstre">
+            Oversikt over søknader og saker, med siste statusoppdatering synlig.
+          </Forklaring>
+          <Forklaring top="62.5%" left="65%">
+            Alt samlet i en historikkvisning så brukerne enkelt kan finne tilbake - uavhengig av hvilken sak det gjaldt.
+          </Forklaring>
+        </BildeContainer>
+        <BildeContainer>
           <Bilde src={innsyn} alt="Skjermbilde av en side til innsyn i sak"/>
-        </div>
+        </BildeContainer>
       </Innhold>
     </Layout>
   )
