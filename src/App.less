@@ -9,57 +9,45 @@
   text-align: center;
 }
 
-
-@coreModulePath: '../../../node_modules/';
-@nav-frontend-core: '../../node_modules/';
-
-@import '../node_modules/nav-frontend-lenker-style/src/lenker-style.less';
-@import '../node_modules/nav-frontend-typografi-style/src/index.less';
-@import '../node_modules/nav-frontend-popover-style/src/popover-style.less';
-
-.App {
-  text-align: center;
-}
-
 .hjelpetekst__ikon {
-  fill: #FF9100 !important;
+  fill: @navOransje !important;
 }
 
 .hjelpetekst__ikon:hover {
-  fill: #FF9100 !important;
+  fill: @navOransje !important;
 }
 
 .hjelpetekst__apneknapp:hover {
-  box-shadow: 0 0 0 2px #FFD399 !important;
-  background: #FFD399 !important;
+  box-shadow: 0 0 0 2px @navOransjeLighten60 !important;
+  background: @navOransjeLighten60 !important;
 }
 
 .hjelpetekst__apneknapp:focus {
   outline: 0;
-  box-shadow: 0 0 0 3px #FFD399;
+  box-shadow: 0 0 0 3px @navOransjeLighten60;
 }
 
 .hjelpetekst__apneknapp:focus {
   outline: 0;
   color: #fff;
-  background: #FFD399;
+  background: @navOransjeLighten60;
 }
 
 .hjelpetekst .popover__pil {
-  background-color: #FFD399;
+  background-color: @navOransjeLighten60;
 }
 
 .hjelpetekst .popover {
-  border: 1px solid #FF9100;
-  background-color: #FFD399;
+  border: 1px solid @navOransje;
+  background-color: @navOransjeLighten60;
 }
 
 .popover:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #FF9100;
+  box-shadow: 0 0 0 3px @navOransje;
 }
 
 .hjelpetekst .popover--over .popover__pil {
-  border-right: 1px solid #FF9100;
-  border-bottom: 1px solid #FF9100;
+  border-right: 1px solid @navOransje;
+  border-bottom: 1px solid @navOransje;
 }
