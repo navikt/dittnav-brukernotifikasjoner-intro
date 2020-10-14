@@ -19,6 +19,7 @@ const BildeContainer = styled.div`
 
 const Forklaring = styled(Hjelpetekst)`  
   position: absolute;
+  text-align: left;
   ${props => props.top && `top: ${props.top};`}
   ${props => props.left && `left: ${props.left};`}
   
@@ -60,7 +61,8 @@ const Oversikt = () => {
             Tidslinjekomponenten viser hva som har skjedd og hva som skal skje i saken, basert på statusoppdateringer og brukernotifikasjoner.
           </Forklaring>
           <Forklaring top="85%" left="80%">
-            Innholdet i komponenten vil være generisk (basert på globale statuser) og tilpasses av teamene slik at den for eksempel også viser lokale statuser og bedre tilpasset tekstlig informasjon.          </Forklaring>
+            Innholdet i komponenten vil være generisk (basert på globale statuser) og tilpasses av teamene<br/> slik at den for eksempel også viser lokale statuser og bedre tilpasset tekstlig informasjon.
+          </Forklaring>
         </BildeContainer>
       </Innhold>
     </Layout>
