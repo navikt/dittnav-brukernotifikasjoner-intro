@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a10f582f5c7180136bf5f5c153e2a7a5",
+    "revision": "0f3ef18d746c054c865b8bd85cd769ba",
     "url": "/dittnav-brukernotifikasjoner-intro/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dittnav-brukernotifikasjoner-intro/static/css/2.328a030e.chunk.css"
   },
   {
-    "revision": "feb4c21345cd177bea63",
+    "revision": "73b6bf2e2a2e533f161a",
     "url": "/dittnav-brukernotifikasjoner-intro/static/css/main.37c0b124.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dittnav-brukernotifikasjoner-intro/static/js/2.a96709e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "feb4c21345cd177bea63",
-    "url": "/dittnav-brukernotifikasjoner-intro/static/js/main.70b89376.chunk.js"
+    "revision": "73b6bf2e2a2e533f161a",
+    "url": "/dittnav-brukernotifikasjoner-intro/static/js/main.fa73d1a6.chunk.js"
   },
   {
     "revision": "6d6c7358357cb625fe75",
