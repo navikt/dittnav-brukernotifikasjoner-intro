@@ -36,28 +36,29 @@ const Funksjonalitet = () => {
           <div>
             <Beskjed/>
             <Normaltekst>
-              <b>Oppgaver...</b> <br/>
-              Forklaring/hensikt <br/>
-              Kafka: brukernotifikasjon + done <br/><br/>
-              Status: klar til bruk
+              <b>Beskjeder...</b> <br/>
+              Dette er en typisk informasjonsmelding til sluttbrukeren. Denne krever ikke nødvendigvis noe mer handling fra brukeren. For eksempel, «Du sendte en søknad om <...>». <br/>
+              Kafka: brukernotifikasjon:beskjed <br/><br/>
+              Status: Klar til bruk i produksjon. Ekstern varsling (e-post/sms) under utvikling.
             </Normaltekst>
           </div>
           <div>
             <Oppgave/>
             <Normaltekst>
-              <b>Beskjeder...</b> <br/>
-              Forklaring/hensikt <br/>
-              Kafka: brukernotifikasjon + done <br/><br/>
-              Status: klar til bruk
+                 <b>Oppgaver...</b> <br/>
+              Oppgave brukes når du trenger at bruker skal gjøre en konkret handling. For eksempel «Vi mangler et vedlegg. Send inn her <...>.» 
+            Brukeren kan ikke selv klikke bort et oppgave-event. Så her må du som produsent holde styr på når oppgaven er fullført. Les mer om oppgave <br/>
+              Kafka: brukernotifikasjon:oppgave + done <br/><br/>
+              Status: Klar til bruk i produksjon. Ekstern varsling (e-post/sms) under utvikling.
             </Normaltekst>
           </div>
           <div>
             <Statusoppdatering/>
             <Normaltekst>
               <b>Statusoppdateringer...</b> <br/>
-              Forklaring/hensikt <br/>
-              Kafka: brukernotifikasjon + done <br/><br/>
-              Status: under utvikling
+              Hvis en sak eller søknad i et fagsystem har endret status kan produsenten sende et Statusoppdatering-event. Dette er en enkel tekstlig beskrivelse som for eksempel "Mottatt". Statusoppdateringen kan brukes videre blant annet i en saksprosess-side <br/>
+              Kafka: brukernotifikasjon:Statusoppdatering <br/><br/>
+              Status: under utvikling, tilgjengelig for test
             </Normaltekst>
           </div>
         </Box>
