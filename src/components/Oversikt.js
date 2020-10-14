@@ -56,10 +56,10 @@ const Oversikt = () => {
           <Forklaring top="15%" left="74%">
             Tenkt eksempel på en generisk innsyn i sak-side, med saksspesifikke oppgaver/beskjeder<br/> og en tidslinjekomponent som viser hva som har skjedd og hva som skal skje i saken.
           </Forklaring>
-          <Forklaring top="75%" left="3%" type="over-hoyre">
+          <Forklaring top="75%" left="3%" type="over-venstre">
             Tidslinjekomponenten viser hva som har skjedd og hva som skal skje i saken, basert på statusoppdateringer og brukernotifikasjoner.
           </Forklaring>
-          <Forklaring top="85%" left="80%" type="over-hoyre">
+          <Forklaring top="85%" left="80%">
             Innholdet i komponenten vil være generisk (basert på globale statuser) og tilpasses av teamene slik at den for eksempel også viser lokale statuser og bedre tilpasset tekstlig informasjon.          </Forklaring>
         </BildeContainer>
       </Innhold>
