@@ -51,7 +51,7 @@ const Status = () => {
             <TableHead>Hendelsetype</TableHead>
           </TableRow>
           <TableRow>
-            <TableData>Sykemelding</TableData>
+            <TableData>Sykmelding</TableData>
             <TableData>Oppgave</TableData>
           </TableRow>
           <TableRow>
@@ -65,6 +65,14 @@ const Status = () => {
           <TableRow>
             <TableData>Sykdom i familien</TableData>
             <TableData>Beskjed</TableData>
+          </TableRow>
+          <TableRow>
+            <TableData>DigiHOT</TableData>
+            <TableData>Beskjed</TableData>
+          </TableRow>
+          <TableRow>
+            <TableData>Foreldrepenger</TableData>
+            <TableData>Beskjed og Oppgave</TableData>
           </TableRow>
           </tbody>
         </Table>
