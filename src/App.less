@@ -8,3 +8,46 @@
 .App {
   text-align: center;
 }
+
+.hjelpetekst__ikon {
+  fill: @navOransje !important;
+}
+
+.hjelpetekst__ikon:hover {
+  fill: @navOransje !important;
+}
+
+.hjelpetekst__apneknapp:hover {
+  box-shadow: 0 0 0 2px @navOransjeLighten60 !important;
+  background: @navOransjeLighten60 !important;
+}
+
+.hjelpetekst__apneknapp:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px @navOransjeLighten60;
+}
+
+.hjelpetekst__apneknapp:focus {
+  outline: 0;
+  color: #fff;
+  background: @navOransjeLighten60;
+}
+
+.hjelpetekst .popover__pil {
+  background-color: @navOransjeLighten60;
+}
+
+.hjelpetekst .popover {
+  border: 1px solid @navOransje;
+  background-color: @navOransjeLighten60;
+}
+
+.popover:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px @navOransje;
+}
+
+.hjelpetekst .popover--over .popover__pil {
+  border-right: 1px solid @navOransje;
+  border-bottom: 1px solid @navOransje;
+}
