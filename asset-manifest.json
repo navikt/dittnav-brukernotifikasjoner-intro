@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dittnav-brukernotifikasjoner-intro/static/css/main.37c0b124.chunk.css",
-    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.4cea04dd.chunk.js",
-    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.4cea04dd.chunk.js.map",
+    "main.css": "/dittnav-brukernotifikasjoner-intro/static/css/main.45f4cd8a.chunk.css",
+    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.6dcad662.chunk.js",
+    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.6dcad662.chunk.js.map",
     "runtime-main.js": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js",
     "runtime-main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js.map",
     "static/css/2.328a030e.chunk.css": "/dittnav-brukernotifikasjoner-intro/static/css/2.328a030e.chunk.css",
     "static/js/2.a96709e3.chunk.js": "/dittnav-brukernotifikasjoner-intro/static/js/2.a96709e3.chunk.js",
     "static/js/2.a96709e3.chunk.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/2.a96709e3.chunk.js.map",
     "index.html": "/dittnav-brukernotifikasjoner-intro/index.html",
-    "precache-manifest.375bcdeaa02925fd3449b4ae6565605d.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.375bcdeaa02925fd3449b4ae6565605d.js",
+    "precache-manifest.8743053ce900905965b795d10e4c088a.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.8743053ce900905965b795d10e4c088a.js",
     "service-worker.js": "/dittnav-brukernotifikasjoner-intro/service-worker.js",
     "static/css/2.328a030e.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/2.328a030e.chunk.css.map",
-    "static/css/main.37c0b124.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/main.37c0b124.chunk.css.map",
+    "static/css/main.45f4cd8a.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/main.45f4cd8a.chunk.css.map",
     "static/js/2.a96709e3.chunk.js.LICENSE.txt": "/dittnav-brukernotifikasjoner-intro/static/js/2.a96709e3.chunk.js.LICENSE.txt",
     "static/media/Avhengigheter.png": "/dittnav-brukernotifikasjoner-intro/static/media/Avhengigheter.e5798ea0.png",
     "static/media/Brukeropplevelse.png": "/dittnav-brukernotifikasjoner-intro/static/media/Brukeropplevelse.71ecf80b.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.ae5efd43.js",
     "static/css/2.328a030e.chunk.css",
     "static/js/2.a96709e3.chunk.js",
-    "static/css/main.37c0b124.chunk.css",
-    "static/js/main.4cea04dd.chunk.js"
+    "static/css/main.45f4cd8a.chunk.css",
+    "static/js/main.6dcad662.chunk.js"
   ]
 }
