@@ -20,6 +20,10 @@ const Prosess = styled.img`
   height: auto;
   border-radius: 3px;
   margin-top: 2rem;
+  
+  @media (max-width: 475px) {
+    display: none;
+  }
 `;
 
 const Box = styled.div`
@@ -33,6 +37,11 @@ const CenteredTextBox = styled.div`
   justify-content: center;
   padding-left: 20px;
   text-align: left;
+  
+  @media (max-width: 475px) {
+    padding-left: 0;
+    padding-bottom: 1.75rem;
+  }
 `;
 
 const Teknisk = () => {
