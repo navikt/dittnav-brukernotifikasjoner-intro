@@ -6,6 +6,7 @@ import Innhold from "./styled/Innhold";
 import diagram from "../assets/Diagram.png"
 import prosess from "../assets/Prosess.png"
 import Ingress from "./styled/Ingress";
+import Lenke from "nav-frontend-lenker";
 
 const Diagram = styled.img`
   width: 100%;
@@ -19,6 +20,10 @@ const Prosess = styled.img`
   height: auto;
   border-radius: 3px;
   margin-top: 2rem;
+  
+  @media (max-width: 475px) {
+    display: none;
+  }
 `;
 
 const Box = styled.div`
@@ -32,6 +37,11 @@ const CenteredTextBox = styled.div`
   justify-content: center;
   padding-left: 20px;
   text-align: left;
+  
+  @media (max-width: 475px) {
+    padding-left: 0;
+    padding-bottom: 1.75rem;
+  }
 `;
 
 const Teknisk = () => {
@@ -50,7 +60,7 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Oppgaver</b><br/>
-                  Forklaring/hensikt ...<br/>
+                  Oppgave er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/oppgave/beskrivelse/"> her</Lenke><br/>
                   Kafka: brukernotifikasjon + done
                 </Normaltekst>
               </CenteredTextBox>
@@ -60,8 +70,8 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Beskjeder</b><br/>
-                  Forklaring/hensikt ...<br/>
-                  Kafka: brukernotifikasjon + done
+                  Beskjed er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/beskjed/beskrivelse/"> her</Lenke><br/>
+                  Kafka: brukernotifikasjon (og Done fra frontend hvis bruker krysser den bort)
                 </Normaltekst>
               </CenteredTextBox>
             </Box>
@@ -70,8 +80,8 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Statusoppdateringer</b><br/>
-                  Forklaring/hensikt ...<br/>
-                  Kafka: brukernotifikasjon + done
+                  Statusoppdatering er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/statusoppdatering/beskrivelse/"> her</Lenke><br/>
+                  Kafka: brukernotifikasjon
                 </Normaltekst>
               </CenteredTextBox>
             </Box>
