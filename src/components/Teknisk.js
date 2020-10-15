@@ -6,6 +6,7 @@ import Innhold from "./styled/Innhold";
 import diagram from "../assets/Diagram.png"
 import prosess from "../assets/Prosess.png"
 import Ingress from "./styled/Ingress";
+import Lenke from "nav-frontend-lenker";
 
 const Diagram = styled.img`
   width: 100%;
@@ -50,7 +51,7 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Oppgaver</b><br/>
-                  Oppgave er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/oppgave/beskrivelse/" her</Lenke>./br/>
+                  Oppgave er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/oppgave/beskrivelse/"> her</Lenke><br/>
                   Kafka: brukernotifikasjon + done
                 </Normaltekst>
               </CenteredTextBox>
@@ -60,7 +61,7 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Beskjeder</b><br/>
-                  Beskjed er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/beskjed/beskrivelse/" her</Lenke>./br/>
+                  Beskjed er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/beskjed/beskrivelse/"> her</Lenke><br/>
                   Kafka: brukernotifikasjon (og Done fra frontend hvis bruker krysser den bort)
                 </Normaltekst>
               </CenteredTextBox>
@@ -70,7 +71,7 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Statusoppdateringer</b><br/>
-                  Statusoppdatering er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/statusoppdatering/beskrivelse/" her</Lenke>./br/>
+                  Statusoppdatering er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/statusoppdatering/beskrivelse/"> her</Lenke><br/>
                   Kafka: brukernotifikasjon
                 </Normaltekst>
               </CenteredTextBox>
