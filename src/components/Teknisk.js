@@ -50,7 +50,7 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Oppgaver</b><br/>
-                  Forklaring/hensikt ...<br/>
+                  Oppgave er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/oppgave/beskrivelse/" her</Lenke>./br/>
                   Kafka: brukernotifikasjon + done
                 </Normaltekst>
               </CenteredTextBox>
@@ -60,8 +60,8 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Beskjeder</b><br/>
-                  Forklaring/hensikt ...<br/>
-                  Kafka: brukernotifikasjon + done
+                  Beskjed er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/beskjed/beskrivelse/" her</Lenke>./br/>
+                  Kafka: brukernotifikasjon (og Done fra frontend hvis bruker krysser den bort)
                 </Normaltekst>
               </CenteredTextBox>
             </Box>
@@ -70,8 +70,8 @@ const Teknisk = () => {
               <CenteredTextBox>
                 <Normaltekst>
                   <b>Statusoppdateringer</b><br/>
-                  Forklaring/hensikt ...<br/>
-                  Kafka: brukernotifikasjon + done
+                  Statusoppdatering er mer detaljert beskrevet <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/eventtyper/statusoppdatering/beskrivelse/" her</Lenke>./br/>
+                  Kafka: brukernotifikasjon
                 </Normaltekst>
               </CenteredTextBox>
             </Box>
