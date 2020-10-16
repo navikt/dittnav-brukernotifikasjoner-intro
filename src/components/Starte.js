@@ -32,7 +32,7 @@ const ListItem = styled.li`
 
 
 const Starte = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  const isMobile = useMediaQuery({query: '(max-width: 768px)'});
 
   return (
     <Layout>
@@ -48,7 +48,7 @@ const Starte = () => {
                 <b>På slack: #</b>brukernotifikasjoner
               </Normaltekst>
             </ListItem>
-       <ListItem>
+            <ListItem>
               <Normaltekst>
                 <b>Ansvar: </b>
                 <Lenke href="https://github.com/navikt/brukernotifikasjon-topic-iac#ansvar">
@@ -56,7 +56,7 @@ const Starte = () => {
                 </Lenke>
               </Normaltekst>
             </ListItem>
-      <ListItem>
+            <ListItem>
               <Normaltekst>
                 <b>FAQ: </b>
                 <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/faq/">
@@ -73,17 +73,17 @@ const Starte = () => {
               </Normaltekst>
             </ListItem>
             <ListItem>
-                <Normaltekst>
-                    <b>Skjema:</b><br/>
-                    - Genererte typer: {''}
-                  <Lenke href="https://search.maven.org/search/?q=a:brukernotifikasjon-schemas">
-                    <span>maven/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
-                  </Lenke><br/>
-                    - Definisjon: {''}
-                  <Lenke href="https://github.com/navikt/brukernotifikasjon-schemas">
-                    <span>navikt/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
-                  </Lenke>
-                </Normaltekst>
+              <Normaltekst>
+                <b>Skjema:</b><br/>
+                - Genererte typer: {''}
+                <Lenke href="https://search.maven.org/search/?q=a:brukernotifikasjon-schemas">
+                  <span>maven/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
+                </Lenke><br/>
+                - Definisjon: {''}
+                <Lenke href="https://github.com/navikt/brukernotifikasjon-schemas">
+                  <span>navikt/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
+                </Lenke>
+              </Normaltekst>
             </ListItem>
             <ListItem>
               <Normaltekst>
