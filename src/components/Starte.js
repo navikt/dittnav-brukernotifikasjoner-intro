@@ -32,7 +32,7 @@ const ListItem = styled.li`
 
 
 const Starte = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  const isMobile = useMediaQuery({query: '(max-width: 768px)'});
 
   return (
     <Layout>
@@ -50,6 +50,22 @@ const Starte = () => {
             </ListItem>
             <ListItem>
               <Normaltekst>
+                <b>Ansvar: </b>
+                <Lenke href="https://github.com/navikt/brukernotifikasjon-topic-iac#ansvar">
+                  <span>Dette må man gå igjennom før man får tilgang</span><Utgang skjul={isMobile}/>
+                </Lenke>
+              </Normaltekst>
+            </ListItem>
+            <ListItem>
+              <Normaltekst>
+                <b>FAQ: </b>
+                <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/faq/">
+                  <span>navikt/brukernotifikasjon-docs</span><Utgang skjul={isMobile}/>
+                </Lenke>
+              </Normaltekst>
+            </ListItem>
+            <ListItem>
+              <Normaltekst>
                 <b>Få tilgang: </b>
                 <Lenke href="https://github.com/navikt/brukernotifikasjon-topic-iac">
                   <span>navikt/brukernotifikasjon-topic-iac</span><Utgang skjul={isMobile}/>
@@ -57,17 +73,17 @@ const Starte = () => {
               </Normaltekst>
             </ListItem>
             <ListItem>
-                <Normaltekst>
-                    <b>Skjema:</b><br/>
-                    - Genererte typer: {''}
-                  <Lenke href="https://search.maven.org/search/?q=a:brukernotifikasjon-schemas">
-                    <span>maven/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
-                  </Lenke><br/>
-                    - Definisjon: {''}
-                  <Lenke href="https://github.com/navikt/brukernotifikasjon-schemas">
-                    <span>navikt/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
-                  </Lenke>
-                </Normaltekst>
+              <Normaltekst>
+                <b>Skjema:</b><br/>
+                - Genererte typer: {''}
+                <Lenke href="https://search.maven.org/search/?q=a:brukernotifikasjon-schemas">
+                  <span>maven/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
+                </Lenke><br/>
+                - Definisjon: {''}
+                <Lenke href="https://github.com/navikt/brukernotifikasjon-schemas">
+                  <span>navikt/brukernotifikasjon-schemas</span><Utgang skjul={isMobile}/>
+                </Lenke>
+              </Normaltekst>
             </ListItem>
             <ListItem>
               <Normaltekst>
