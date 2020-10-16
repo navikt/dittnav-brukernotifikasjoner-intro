@@ -51,18 +51,16 @@ const Starte = () => {
        <ListItem>
               <Normaltekst>
                 <b>Ansvar: </b>
-                Konseptet med brukernotifikasjoner legger et større ansvar på teamene som vil nå ut til brukerne med sine hendelser. Ta gjerne kontakt for en gjennomgang. 
-                Vi har laget en ansvarsliste som også beskriver noe av det man må tenke på før man får tilgang. 
-                <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/faq/">
-                  <span>navikt/brukernotifikasjon-topic-iac#ansvar</span><Utgang skjul={isMobile}/>
+                <Lenke href="https://github.com/navikt/brukernotifikasjon-topic-iac#ansvar">
+                  <span>Dette må man gå igjennom før man får tilgang</span><Utgang skjul={isMobile}/>
                 </Lenke>
               </Normaltekst>
             </ListItem>
       <ListItem>
               <Normaltekst>
                 <b>FAQ: </b>
-                 <Lenke href="https://github.com/navikt/brukernotifikasjon-topic-iac#ansvar">
-                  <span>navikt/brukernotifikasjon-topic-iac</span><Utgang skjul={isMobile}/>
+                <Lenke href="https://navikt.github.io/brukernotifikasjon-docs/faq/">
+                  <span>navikt/brukernotifikasjon-docs</span><Utgang skjul={isMobile}/>
                 </Lenke>
               </Normaltekst>
             </ListItem>
