@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dittnav-brukernotifikasjoner-intro/static/css/main.45f4cd8a.chunk.css",
-    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.20ac1dae.chunk.js",
-    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.20ac1dae.chunk.js.map",
+    "main.js": "/dittnav-brukernotifikasjoner-intro/static/js/main.8c65496d.chunk.js",
+    "main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/main.8c65496d.chunk.js.map",
     "runtime-main.js": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js",
     "runtime-main.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/runtime-main.ae5efd43.js.map",
     "static/css/2.328a030e.chunk.css": "/dittnav-brukernotifikasjoner-intro/static/css/2.328a030e.chunk.css",
     "static/js/2.784336b4.chunk.js": "/dittnav-brukernotifikasjoner-intro/static/js/2.784336b4.chunk.js",
     "static/js/2.784336b4.chunk.js.map": "/dittnav-brukernotifikasjoner-intro/static/js/2.784336b4.chunk.js.map",
     "index.html": "/dittnav-brukernotifikasjoner-intro/index.html",
-    "precache-manifest.bf466148877b6b6356e23500073c61f9.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.bf466148877b6b6356e23500073c61f9.js",
+    "precache-manifest.1417ecf5577d178bc8f8b46570d72738.js": "/dittnav-brukernotifikasjoner-intro/precache-manifest.1417ecf5577d178bc8f8b46570d72738.js",
     "service-worker.js": "/dittnav-brukernotifikasjoner-intro/service-worker.js",
     "static/css/2.328a030e.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/2.328a030e.chunk.css.map",
     "static/css/main.45f4cd8a.chunk.css.map": "/dittnav-brukernotifikasjoner-intro/static/css/main.45f4cd8a.chunk.css.map",
@@ -20,13 +20,13 @@
     "static/media/Dittnav.png": "/dittnav-brukernotifikasjoner-intro/static/media/Dittnav.99f54b32.png",
     "static/media/Innsyn.png": "/dittnav-brukernotifikasjoner-intro/static/media/Innsyn.816ab4a9.png",
     "static/media/Prosess.png": "/dittnav-brukernotifikasjoner-intro/static/media/Prosess.67cdf57a.png",
-    "static/media/Skisse.png": "/dittnav-brukernotifikasjoner-intro/static/media/Skisse.64b7bcf7.png"
+    "static/media/Skisse.png": "/dittnav-brukernotifikasjoner-intro/static/media/Skisse.59def993.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae5efd43.js",
     "static/css/2.328a030e.chunk.css",
     "static/js/2.784336b4.chunk.js",
     "static/css/main.45f4cd8a.chunk.css",
-    "static/js/main.20ac1dae.chunk.js"
+    "static/js/main.8c65496d.chunk.js"
   ]
 }

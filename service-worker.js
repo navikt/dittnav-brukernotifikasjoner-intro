@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dittnav-brukernotifikasjoner-intro/precache-manifest.bf466148877b6b6356e23500073c61f9.js"
+  "/dittnav-brukernotifikasjoner-intro/precache-manifest.1417ecf5577d178bc8f8b46570d72738.js"
 );
 
 self.addEventListener('message', (event) => {
