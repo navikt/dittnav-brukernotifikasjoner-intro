@@ -9,7 +9,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "babel-polyfill": "^6.26.0",
-    "browserslist": "^4.13.0",
+    "browserslist": "^4.16.5",
     "classnames": "^2.2.6",
     "craco-less": "^1.17.0",
     "less": "^3.12.2",
