@@ -71,8 +71,24 @@ const Status = () => {
             <TableData>Beskjed</TableData>
           </TableRow>
           <TableRow>
+            <TableData>Hjelpemidler</TableData>
+            <TableData>Beskjed og Oppgave</TableData>
+          </TableRow>
+          <TableRow>
             <TableData>Foreldrepenger</TableData>
             <TableData>Beskjed og Oppgave</TableData>
+          </TableRow>
+          <TableRow>
+            <TableData>Omsorgspenger</TableData>
+            <TableData>Beskjed</TableData>
+          </TableRow>
+          <TableRow>
+            <TableData>Pleiepenger</TableData>
+            <TableData>Beskjed</TableData>
+          </TableRow>
+          <TableRow>
+            <TableData>Sykepenger</TableData>
+            <TableData>Oppgave</TableData>
           </TableRow>
           </tbody>
         </Table>

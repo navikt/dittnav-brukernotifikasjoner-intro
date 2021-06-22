@@ -43,9 +43,9 @@ const Funksjonalitet = () => {
             <Beskjed/>
               <Systemtittel>Beskjeder</Systemtittel> <br/>
               <Normaltekst>
-                Dette er en typisk informasjonsmelding til sluttbrukeren. Denne krever ikke nødvendigvis noe mer handling fra brukeren. For eksempel, «Du sendte en søknad om ...». <br/>
-                <b>Kafka</b>: brukernotifikasjon:beskjed <br/><br/>
-                <b>Status:</b> Klar til bruk i produksjon. Ekstern varsling (e-post/sms) under utvikling.
+                Dette er en typisk informasjonsmelding til sluttbrukeren. Denne krever ikke nødvendigvis noe mer handling fra brukeren. For eksempel, «Du sendte en søknad om ...». Brukeren kan varsles om beskjeden på SMS og e-post.
+                <br/><br/>
+                <b>Status:</b> Klar til bruk i produksjon.
             </Normaltekst>
           </BrukernotifikasjonBox>
           <BrukernotifikasjonBox>
@@ -53,17 +53,17 @@ const Funksjonalitet = () => {
               <Systemtittel>Oppgaver</Systemtittel> <br/>
               <Normaltekst>
                 Oppgave brukes når du trenger at bruker skal gjøre en konkret handling. For eksempel «Vi mangler et vedlegg. Send inn her ...»
-                Brukeren kan ikke selv klikke bort et oppgave-event. Så her må du som produsent holde styr på når oppgaven er fullført. Les mer om oppgave <br/>
-                <b>Kafka:</b> brukernotifikasjon:oppgave + done <br/><br/>
-                <b>Status:</b> Klar til bruk i produksjon. Ekstern varsling (e-post/sms) under utvikling.
+                Brukeren kan ikke selv klikke bort et oppgave-event. Så her må du som produsent holde styr på når oppgaven er fullført. Brukeren kan varsles om oppgaven på SMS og e-post.
+                <br/><br/>
+                <b>Status:</b> Klar til bruk i produksjon.
               </Normaltekst>
           </BrukernotifikasjonBox>
           <BrukernotifikasjonBox>
             <Statusoppdatering/>
               <Systemtittel>Statusoppdateringer</Systemtittel> <br/>
               <Normaltekst>
-                Hvis en sak eller søknad i et fagsystem har endret status kan produsenten sende et Statusoppdatering-event. Dette er en enkel tekstlig beskrivelse som for eksempel «Mottatt». Statusoppdateringen kan brukes videre blant annet i en saksprosess-side <br/>
-                <b>Kafka:</b> brukernotifikasjon:statusoppdatering <br/><br/>
+                Hvis en sak eller søknad i et fagsystem har endret status kan produsenten sende et Statusoppdatering-event. Dette er en enkel tekstlig beskrivelse som for eksempel «Mottatt». Statusoppdateringen kan brukes videre blant annet i en saksprosess-side.
+                <br/><br/>
                 <b>Status:</b> under utvikling, tilgjengelig for test
             </Normaltekst>
           </BrukernotifikasjonBox>
