@@ -34,7 +34,7 @@ const TableData = styled.td`
 
 const Status = () => {
   return (
-    <Layout light>
+    <Layout>
       <Innhold>
         <Systemtittel>
           Status for bruk av hendelser

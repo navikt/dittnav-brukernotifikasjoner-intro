@@ -8,6 +8,7 @@ import Teknisk from "./components/Teknisk";
 import Starte from "./components/Starte";
 import Status from "./components/Status";
 import './App.less';
+import VelgEventtype from "./components/VelgEventtype";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Funksjonalitet />
       <Tidslinje />
       <Teknisk />
+      <VelgEventtype />
       <Starte />
       <Status />
     </div>
