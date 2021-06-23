@@ -9,7 +9,7 @@ import Ingress from "./styled/Ingress";
 import Lenke from "nav-frontend-lenker";
 
 const Diagram = styled.img`
-  width: 100%;
+  max-width: 800px;
   height: auto;
   border-radius: 3px;
   margin-top: 2rem;
@@ -28,6 +28,7 @@ const Prosess = styled.img`
 
 const Box = styled.div`
   display: flex;
+  max-width: 800px;
   ${props => props.column && 'flex-direction: column'};
 `;
 

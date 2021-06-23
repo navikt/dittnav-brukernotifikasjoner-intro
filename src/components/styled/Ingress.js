@@ -2,7 +2,7 @@ import styled from "styled-components";
 import React from "react";
 
 const Style = styled.div`
-    max-width: 800px;
+    max-width: 1200px;
     ${props => props.left && 'text-align: left;'}
 `;
 

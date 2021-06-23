@@ -35,7 +35,7 @@ const Starte = () => {
   const isMobile = useMediaQuery({query: '(max-width: 768px)'});
 
   return (
-    <Layout>
+    <Layout light>
       <Innhold>
         <Systemtittel>
           Hvordan komme i gang?
