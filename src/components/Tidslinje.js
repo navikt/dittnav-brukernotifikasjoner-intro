@@ -7,7 +7,7 @@ import tidslinje from '../assets/Skisse.png'
 import styled from "styled-components";
 
 const Skisse = styled.img`
-  width: 100%;
+  max-width: 800px;
   height: auto;
   border-radius: 3px;
   margin-top: 2rem;
