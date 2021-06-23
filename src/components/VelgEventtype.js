@@ -19,7 +19,7 @@ const VelgEventtype = () => {
                     Hvilken eventtype skal vi bruke?
                 </Systemtittel>
                 <br/>
-                <Ingress>
+                <Ingress maxWidth="1200px">
                     <Normaltekst>
                         Ved å gå gjennom spørsmålene i figuren blir det enklere å finne ut hvilken eventtype som passer best til deres behov.
                     </Normaltekst>

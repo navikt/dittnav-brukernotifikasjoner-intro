@@ -9,7 +9,7 @@ import Ingress from "./styled/Ingress";
 import Lenke from "nav-frontend-lenker";
 
 const Diagram = styled.img`
-  max-width: 800px;
+  width: 100%;
   height: auto;
   border-radius: 3px;
   margin-top: 2rem;
